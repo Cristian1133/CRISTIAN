@@ -1,0 +1,46 @@
+h1 {
+  color: aqua;
+  font-size: 60px;
+}
+#nombre {
+  color: chocolate;
+}
+.novia {
+  color: aquamarine;
+  background-color: rgb(30, 48, 42);
+}
+
+.caja {
+  width: 1000px;
+  height: 500px;
+  margin: 100px;
+  border: 5px dotted red;
+}
+#uno {
+  color: rgb(194, 21, 21);
+}
+
+img {
+  width: 600px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+#dos {
+  padding-top: 70px;
+  padding-right: 40px;
+}
+
+.grid-contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
