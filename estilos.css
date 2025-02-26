@@ -8,6 +8,7 @@ h1 {
 .novia {
   color: aquamarine;
   background-color: rgb(30, 48, 42);
+  text-align: center;
 }
 
 .caja {
@@ -15,6 +16,7 @@ h1 {
   height: 500px;
   margin: 100px;
   border: 5px dotted red;
+  padding: 30px;
 }
 #uno {
   color: rgb(194, 21, 21);
@@ -27,6 +29,9 @@ img {
 .contenedor {
   display: flex;
   justify-content: space-around;
+  background-color: aqua;
+  
+ 
 }
 #dos {
   padding-top: 70px;
@@ -37,10 +42,16 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  
 }
 
 @media (max-width: 600px) {
   .contenedor {
     flex-direction: column;
   }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
 }
