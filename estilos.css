@@ -68,3 +68,10 @@ td {
 th {
   background-color: #f4f4f4;
 }
+
+.lora-uniquifier {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
