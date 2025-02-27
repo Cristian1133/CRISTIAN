@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tablas</title>
+    <link rel="stylesheet" href="estilos.css" />
   </head>
   <body>
     <table>
+      <h1>Tablas</h1>
       <tr>
         <th>Nombre</th>
         <th>Edad</th>
@@ -32,5 +34,41 @@
         <td>17</td>
       </tr>
     </table>
+    <table>
+      <tr>
+        <!--columna-->
+        <th colspan="2">Encabezado Extendido</th>
+      </tr>
+      <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+      </tr>
+      <tr>
+        <!--fila-->
+        <td rowspan="2">Celda Extendida</td>
+        <td>Celda 3</td>
+      </tr>
+      <tr>
+        <td>Celda 4</td>
+      </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>25</td>
+            <td>Madrid</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>30</td>
+            <td>Barcelona</td>
+        </tr>
+    </table>
+             
   </body>
 </html>

@@ -30,8 +30,6 @@ img {
   display: flex;
   justify-content: space-around;
   background-color: aqua;
-  
- 
 }
 #dos {
   padding-top: 70px;
@@ -42,7 +40,6 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  
 }
 
 @media (max-width: 600px) {
@@ -54,4 +51,20 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1px;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-left: 50px;
+  background-color: rgb(179, 255, 0);
+  
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
 }
